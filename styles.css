@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(1, 1, 110);
+}
+
+.container-fluid {
+  width: 85%;
+  border: 2px solid black;
+  height: 50em;
+}
+
+#link_1 {
+  background-image: url(./img/workout-stuff.jpg);
+  width: 45%;
+  height: 18em;
+  margin-left: 2em;
+}
+
+#link_2 {
+  background-image: url(./img/body-solid-strength-tech-home-gym-min-e1566947801774.jpg);
+  width: 45%;
+  height: 18em;
+  margin-right: 2em;
+}
+
+#info_p {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#link_container {
+  margin-top: 10px;
+  margin-bottom: 4em;
+  justify-content: space-between;
+}
+
+.custom_border {
+  border: 3px solid gold;
+}
+
+a {
+  display: block;
+}
