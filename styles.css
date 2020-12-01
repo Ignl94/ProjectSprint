@@ -41,3 +41,27 @@ body {
 a {
   display: block;
 }
+
+/* -------------------------------------- equipments section --------------------------------------- */
+.flex_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+.items_div {
+  background-image: url(./img/workout-stuff.jpg);
+  background-size: cover;
+  width: 7em;
+  height: 7em;
+  margin-right: 2em;
+  border: 2px solid gold;
+}
+/* ----------------------------- modules section -------------------------------------------- */
+
+.module_blocks {
+  background-image: url(./img/workout-stuff.jpg);
+  background-size: cover;
+  width: 15em;
+  height: 15em;
+}
