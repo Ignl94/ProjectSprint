@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(1, 1, 110);
+  background-color: rgb(2, 2, 34);
 }
 
 .container-fluid {
   width: 85%;
   border: 2px solid black;
-  height: 50em;
+  height: 53em;
 }
 
 #link_1 {
@@ -50,12 +50,12 @@ a {
   margin-bottom: 3em;
 }
 .items_div {
-  background-image: url(./img/workout-stuff.jpg);
   background-size: cover;
   width: 7em;
   height: 7em;
   margin-right: 2em;
   border: 2px solid gold;
+  background-repeat: no-repeat;
 }
 /* ----------------------------- modules section -------------------------------------------- */
 
@@ -64,4 +64,15 @@ a {
   background-size: cover;
   width: 15em;
   height: 15em;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+nav {
+  margin-bottom: 1em;
+  border: 2px solid gold;
+}
+
+footer {
+  color: white;
 }
