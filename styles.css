@@ -50,7 +50,7 @@ a {
   margin-bottom: 3em;
 }
 .items_div {
-  background-size: cover;
+  background-size: 100% 100%;
   width: 7em;
   height: 7em;
   margin-right: 2em;
@@ -60,8 +60,8 @@ a {
 /* ----------------------------- modules section -------------------------------------------- */
 
 .module_blocks {
-  background-image: url(./img/workout-stuff.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   width: 15em;
   height: 15em;
 }
